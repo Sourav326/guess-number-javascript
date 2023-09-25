@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Number</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="main">
+        <img src="logo.png" alt="Goblin Image">
+        <section class="card">
+            <div class="guesses-div">
+                <label for="guesses">Your Guessess: </label>
+                <input type="text" name="guesses" id="guesses" class="input guesses" value=0>
+            </div>
+            <h2 class="title">Guess the Number</h2>
+            <p class="desc">We have selected a random number between 1-10. See if you can guess it.</p>
+                <div class="form-input">
+                    <label for="number">Please Enter your Guess:</label>
+                    <input type="number" name="number" id="number" class="input" placeholder="Enter The Number">
+                </div>
+                <div class="btn-bundle-error">
+                    <button class="input btn" id="submitBtn">Submit</button>
+                    <span class="error" id="error"></span>
+                    <span class="success" id="success"></span>
+                </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

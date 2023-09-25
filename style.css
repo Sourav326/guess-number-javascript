@@ -1,0 +1,66 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly
+}
+.card{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 10px 50px 50px;
+    border-radius: 10px 100px;
+    border: 2px solid #f10dde;
+    position:relative;
+}
+.card .title{
+    font-size: 2.5rem;
+    font-family: fantasy;
+    text-align: center;
+}
+.card .desc{
+    font-size: 1.3rem;
+}
+.card .form-input{
+    display: flex;
+    flex-direction: column;
+}
+label{
+    padding-bottom: 10px;
+}
+.card .input{
+    padding: 13px;
+    border-radius: 5px;
+    border: 1px solid #ccc9c9;
+}
+.card .btn{
+    width: 100px;
+    background-color: #aa64ee;
+    color: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.card .btn:hover{
+    background-color: #ffffff;
+    color: #aa64ee;
+}
+.error{
+    color: red;
+}
+.success{
+    color: green;
+}
+
+.btn-bundle-error{
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+}
+.card .guesses-div{
+    position: absolute;
+    right: 50px;
+    bottom: 15px;
+}
